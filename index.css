@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+.ullist{
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: hsl(223, 83%, 60%);
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+.logo {
+    height: 35px;
+    margin-left: 100px;
+
+}
+
+#inputtext {
+    height: 35px;
+    width: 400px;
+    border-radius: 5px;
+    background: white;
+    padding: 0 10px;
+    margin: 10px;
+
+}
+
+.Search {
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background-color: #ffffff;
+    font-size: 1rem;
+    margin-right: 100px;
+}
+
+.btnlogin {
+
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background-color: #ffffff;
+    font-size: 1rem;
+    text-decoration: none;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin-left: 300px;
+
+}
+
+.btnlogin:hover {
+    color: #2874f0;
+    font-weight: bolder;
+    box-shadow: 5px 5px 5px rgba(29, 28, 28, 0.419)
+}
+
+.Search:hover {
+    color: #2874f0;
+    font-weight: bolder;
+    box-shadow: 5px 5px 5px rgba(29, 28, 28, 0.419)
+}
+
+#cart {
+    font-size: 30px;
+    color: white;
+    margin-left: 40px;
+}
+
+#cart:hover {
+    box-shadow: 10px 10px 10px rgba(242, 243, 249, 0.419)
+}
+
+/* ...........Navbar */
+
+
+.navbar {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(8, 1fr);
+    list-style: none;
+    align-items: center;
+    background: white;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.407);
+    padding: 20px;
+
+}
+
+.flexo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.navimg {
+    height: 60px;
+    color: rgb(18, 15, 15);
+    margin: 5px 0px;
+
+
+}
+
+.navp {
+    color: rgba(9, 1, 1, );
+    font-size: 16px;
+    background-color: white;
+    text-align: center;
+
+}
+
+
+/* slider1 css */
+
+
+.slider {
+    height: 400px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/festival\ background\ imag.jpg);
+
+}
+
+.slider img {
+    margin: 0px;
+    padding: 0;
+    height: 300px;
+    width: 1050px;
+    border-radius: 5px;
+}
+
+.slide {
+    position: relative;
+}
+
+.sliderp {
+    margin: 0px;
+    padding: 0;
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+
+#electronic,
+#furniture,
+#cloths {
+
+    display: grid;
+    gap: 0px;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    border-radius: 3px;
+    background: white;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.392);
+}
+
+
+.flexi {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 30px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.electronicsec:hover {
+    box-shadow: 0px 5px 20px #0d65e9a0;
+
+}
+
+p {
+    color: #023889;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h2 {
+
+    margin: 40px 0px 0px 40px;
+    font-size: 25px;
+}
+
+.electronicsec {
+    height: 120px;
+    width: 110px;
+    margin: 15px 10px;
+
+}
+
+
+.footer{
+    background-color: rgb(20, 20, 20);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+    justify-content: center;
+    margin-top: 20px;
+    height: 240px;
+    padding: 10px 200px
+
+}
+
+
+.footeritem{
+        font-size: .9rem; 
+        margin: 12px ;
+        
+    }
+
+
+.flexfooter .footeritem{
+   list-style: none
+}
+ 
+#applestorelogo{
+    height: 30px;
+    margin: 10px;}
+     
+
+#googleplay{
+    height: 30px;
+    margin: 10px;
+     
+}
+#p2{
+    font-size: 25px;
+    color: white;
+    margin: 20px;
+}
+.socialsec{
+    margin: 20px 50px;
+}
+.social{
+    height: 30px;
+    margin: 20px;
+}
+
+#footerbottom {
+    background-color: #2874f0;
+    height: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+#footerbottom p {
+    color: rgb(255, 255, 255);
+}
+
+
+
+@media(max-width: 850px) {
+
+    .ullist {
+        grid-template-columns: repeat(5, 1fr)
+    }
+
+    .ullist .logo {
+        margin: 20px;
+    }
+
+    .ullist #inputtext {
+        width: 200px;
+    }
+
+    .ullist .btnlogin {
+        margin: 0px;
+    }
+
+    .ullist .search {
+        margin: 0px;
+    }
+
+    .ullist #cart {
+        margin: 0px;
+    }
+
+    .slider img {
+        margin: 0px;
+        padding: 0;
+        height: 250px;
+        width: 790px;
+        border-radius: 5px;
+    }
+
+    h2 {
+
+        margin: 30px 0px 20px 20px;
+        font-size: 15px; }
+
+
+    #electronic,
+    #furniture,
+    #cloths {
+        grid-template-columns: repeat(4, 1fr);
+        height: auto;
+        padding: 20px; }
+
+    .flexi .electronicsec {
+        height: 80px;
+        margin: 20px 10px;
+    }
+
+    .footer{
+       
+        margin: 5px;
+        padding: 10px 100px 50px;
+         }
+
+    .footeritem{
+        font-size: .8rem;
+        height: 5px;
+        margin: 30px ;
+        
+    }
+
+    .social{
+        height: 25px;
+        margin: 10px;
+    }
+ 
+    p {
+        font-size: 14px;
+    }
+
+    #footerbottom p {
+        font-size: 12px;
+    }
+
+}
+     
+
+
+@media(max-width: 480px) {
+
+    .ullist {
+        grid-template-columns: repeat(1, 1fr)
+    }
+
+    .ullist .logo {
+        margin: auto;
+        padding: 10px;
+    }
+
+    .ullist #inputtext {
+        width: 250px;
+        margin: auto;
+        height: 25px;
+
+    }
+
+    .ullist .btnlogin {
+        margin: auto;
+        height: 25px;
+    }
+
+    .ullist .Search {
+        margin: auto auto 10px auto;
+        height: 28px;
+
+    }
+
+    .ullist #cart {
+        font-size: 30px;
+        margin: 0px 0px 5px 5px;
+    }
+
+
+    .flexo .navimg {
+
+        height: 50px;
+
+    }
+
+    .flexo .navp {
+
+        font-size: 12px;
+
+    }
+
+    body .navbar {
+        grid-template-columns: repeat(4, 1fr)
+    }
+
+    body .slider {
+        display: none;
+    }
+
+    #electronic,
+    #furniture,
+    #cloths {
+        grid-template-columns: repeat(2, 1fr);
+        box-sizing: border-box;
+        padding: 10px;
+        place-items: center;
+    }
+
+   
+
+    .flexi .cloths {
+        height: 80px;
+        margin: 10px 0px;
+    }
+
+    .flexi {
+        margin-right: 5px;
+    }
+
+    .footer{
+        padding: 10px;
+    }
+
+    .flexfooter .footeritem{
+        font-size: 12px;
+        margin: 25px 0px }
+
+     
+    .social{
+        height: 25px;
+        margin: 10px;
+    }
+
+    #footerbottom p {
+        font-size: 11px;
+        margin: 0px;
+    }
+
+   
+    
+   p {
+        font-size: 12px;
+    }
+}
+
